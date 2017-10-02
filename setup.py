@@ -9,7 +9,7 @@ requirements = [
 setup(
     name='tbraille',
     version='1.1.0',
-    description='Piglet/Toilet using braille characters.',
+    description='Figlet/Toilet using braille characters.',
     author='Jeong Arm',
     author_email='kjwonmail' '@' 'gmail.com',
     url='https://github.com/kjwon15/tbraille',
