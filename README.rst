@@ -7,10 +7,10 @@
 
 
 tbraille — Toilet/Figlet-like CLI tool
-===
+======================================
 
 Installation and Usage
-+++
+----------------------
 
 .. code-block:: console
 
@@ -25,7 +25,7 @@ Installation and Usage
 
 
 Use as library
-+++
+--------------
 
 .. code-block:: python
 
