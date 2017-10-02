@@ -8,7 +8,7 @@ requirements = [
 
 setup(
     name='tbraille',
-    version='1.1.0',
+    version='1.2.0',
     description='Figlet/Toilet using braille characters.',
     author='Jeong Arm',
     author_email='kjwonmail' '@' 'gmail.com',
