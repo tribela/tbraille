@@ -14,14 +14,18 @@ parser.add_argument(
     type=int,
     default=20,
     help='Font size')
-parser.add_argument('text')
+parser.add_argument(
+    'text',
+    nargs='?'
+)
 
 
 def main():
     args = parser.parse_args()
-    text = args.text.strip()
+    text = args.text
     if not text:
-        text = sys.stdin.read().strip()
+        text = sys.stdin.read()
+    text = text.strip()
     print(tbraille(args.font, args.size, text))
 
 
