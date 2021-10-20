@@ -16,6 +16,7 @@ def tbraille(fontname, size, text):
     image = Image.new('L', (0, 0))
     draw = ImageDraw.Draw(image)
     img_size = draw.multiline_textsize(text, font=font)
+    img_size = (img_size[0], img_size[1] + size)
 
     image = image.resize(img_size)
     draw = ImageDraw.Draw(image)

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tbraille"
+version = "1.2.2"
+description = "Figlet/Toilet using braille characters."
+authors = ["Jeong Arm <kjwonmail@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+wheel = "^0.37.0"
+
+[tool.poetry.scripts]
+tbraille = "tbraille.__main__:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
