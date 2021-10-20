@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "tbraille"
-version = "1.2.2"
+version = "1.2.4"
 description = "Figlet/Toilet using braille characters."
 authors = ["Jeong Arm <kjwonmail@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-Pillow = "^8.4.0"
+Pillow = "^5.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
